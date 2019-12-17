@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexboxgrid@6.3.1/dist/flexboxgrid.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Hover Effects</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
+    <script type="text/javascript" src="static/glitch.js"></script>
+
+</head>
+<body>
+
+  <div class="hero">
+      <div class="snow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
+  		    <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
+  			   <g id="snow-bottom-layer">
+  				  <ellipse cx="6" cy="1009.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="138" cy="1110.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="398" cy="1055.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="719" cy="1284.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="760" cy="1155.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="635" cy="1459.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="478" cy="1335.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="322" cy="1414.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="247" cy="1234.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="154" cy="1425.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="731" cy="773.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="599" cy="874.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="339" cy="819.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="239" cy="1004.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="113" cy="863.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="102" cy="1223.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="395" cy="1155.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="826" cy="943.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="626" cy="1054.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="887" cy="1366.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="6" cy="241.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="138" cy="342.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="398" cy="287.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="719" cy="516.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="760" cy="387.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="635" cy="691.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="478" cy="567.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="322" cy="646.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="247" cy="466.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="154" cy="657.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="731" cy="5.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="599" cy="106.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="339" cy="51.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="239" cy="236.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="113" cy="95.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="102" cy="455.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="395" cy="387.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="826" cy="175.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="626" cy="286.5" rx="6" ry="5.5"/>
+  				  <ellipse cx="887" cy="598.5" rx="6" ry="5.5"/>
+  			   </g>
+  		    </g>
+  		    <g fill="#FFF" fill-opacity=".3" transform="translate(65 63)">
+  			   <g id="snow-top-layer">
+  				  <circle cx="8" cy="776" r="8"/>
+  				  <circle cx="189" cy="925" r="8"/>
+  				  <circle cx="548" cy="844" r="8"/>
+  				  <circle cx="685" cy="1115" r="8"/>
+  				  <circle cx="858" cy="909" r="8"/>
+  				  <circle cx="874" cy="1438" r="8" transform="rotate(180 874 1438)"/>
+  				  <circle cx="657" cy="1256" r="8" transform="rotate(180 657 1256)"/>
+  				  <circle cx="443" cy="1372" r="8" transform="rotate(180 443 1372)"/>
+  				  <circle cx="339" cy="1107" r="8" transform="rotate(180 339 1107)"/>
+  				  <circle cx="24" cy="1305" r="8" transform="rotate(180 24 1305)"/>
+  				  <circle cx="8" cy="8" r="8"/>
+  				  <circle cx="189" cy="157" r="8"/>
+  				  <circle cx="548" cy="76" r="8"/>
+  				  <circle cx="685" cy="347" r="8"/>
+  				  <circle cx="858" cy="141" r="8"/>
+  				  <circle cx="874" cy="670" r="8" transform="rotate(180 874 670)"/>
+  				  <circle cx="657" cy="488" r="8" transform="rotate(180 657 488)"/>
+  				  <circle cx="443" cy="604" r="8" transform="rotate(180 443 604)"/>
+  				  <circle cx="339" cy="339" r="8" transform="rotate(180 339 339)"/>
+  				  <circle cx="24" cy="537" r="8" transform="rotate(180 24 537)"/>
+  			   </g>
+  		    </g>
+  		</svg>
+      </div>
+  	<div class="hero__content">
+  		<h1 id="large" class="animated bounceIn delay-0.5s">Welcome To My Website</h1>
+  	</div>
+  </div>
+
+  <div class="scroll-downs">
+    <div class="mousey">
+      <div class="scroller"></div>
+    </div>
+  </div>
+
+  <div class="black_gradient"></div>
+
+  <div class="master_container">
+      <section id="section1">
+      <div class="container">
+
+        <a href="#edx">
+          <div class="card">
+              <div class="face face1">
+                  <div class="content image_scaling">
+                      <img src="https://lh3.googleusercontent.com/D0mNe9YG2DqXeBpTCj7TMJB4qIaEECT_0mkMFvlMjQToE2K2Ym7d7iKXGKDQznd1k7Uw8D3Lo755VzrpRW6WZqEI8jWSO1Ph1YT-3yGgA4BUlT4_Sq938bYyJswC4ck_7yb0AbUAaQ=w2400">
+                      <h3>Code</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>Highlights and source code of coding projects based on the edx lecture CS50W which I completed in the past year.</p>
+                  </div>
+              </div>
+          </div>
+          </a>
+
+          <a href="#glitch">
+          <div class="card">
+              <div class="face face1">
+                  <div class="content">
+                      <img style="margin-left:17%;" src="https://lh3.googleusercontent.com/xgaY1B2Ve9wgxplpqi_5kS6CWFd-gcAHp2kPUin8nCmLupc3PFjAz1A2VRL-dRn3bx9jjkbdsdpkSpvlAo8RLdOsrmtTvpBmeukjHLhtKvNBRuCYmEVJT_o9U2opMBbQjTnaWjFK7A=w2400">
+                      <h3>Certificates</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>Certificate of the completion of cyberstart essentials along with a summary of what was learned thoughout the whole course</p>
+                  </div>
+              </div>
+          </div>
+          </a>
+
+          <a href="#future">
+          <div class="card">
+              <div class="face face1">
+                  <div class="content">
+                    <img src="https://lh3.googleusercontent.com/8RQ7YxT12AZItB3N9eyhZif9or6ebg_bEdP3abGYYy4qjX0jNvqS43VvUEveHyMqUSbSNmxRpbjP9gGRP_mGmwBplVKjWlQ6h1l7SPYQ6NFKi8Z2iApgH8vvtuzbJixjlnluugQI4Q=w2400">
+                    <h3>Courses</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>List of online courses completed on futurelearn</p>
+                  </div>
+              </div>
+          </div>
+          </a>
+
+      </div>
+      </section>
+    </div>
+
+  <section id="section2">
+
+    <div id="edx" class="pink_container lower_body_margin">
+
+    	<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g fill="#eeeeee">
+          <path d="M143.19336,21.43001c-0.26705,0.00844 -0.53341,0.03181 -0.79785,0.06999h-34.89551c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h18.53256l-66.59961,66.59961c-1.8722,1.79752 -2.62637,4.46674 -1.97164,6.97823c0.65473,2.51149 2.61604,4.4728 5.12753,5.12753c2.51149,0.65473 5.18071,-0.09944 6.97823,-1.97165l66.59961,-66.59961v18.53255c-0.03655,2.58456 1.32136,4.98858 3.55376,6.29153c2.2324,1.30295 4.99342,1.30295 7.22582,0c2.2324,-1.30295 3.59031,-3.70697 3.55376,-6.29153v-34.9235c0.28889,-2.08845 -0.35639,-4.19816 -1.76411,-5.76769c-1.40772,-1.56953 -3.43507,-2.43964 -5.54253,-2.3788zM35.83333,21.5c-7.83362,0 -14.33333,6.49972 -14.33333,14.33333v100.33333c0,7.83362 6.49972,14.33333 14.33333,14.33333h100.33333c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-43c0.03655,-2.58456 -1.32136,-4.98858 -3.55376,-6.29153c-2.2324,-1.30295 -4.99342,-1.30295 -7.22582,0c-2.2324,1.30295 -3.59031,3.70697 -3.55376,6.29153v43h-100.33333v-100.33333h43c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376z">
+          </path></g></g>
+
+            <p style="padding-top:70px;">I started the edx course <a target="_blank" href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/">CS50W</a> on July 1st 2018 and have slowly worked though it while juggling other school work and extracurricular activities.
+              The 3 projects below were created with rough accordance to the courses specification.
+            </p>
+
+            <li style="padding-top:40px;">Very basic static webpage which is also mobile responsive though using bootstrap</li>
+
+        <div class="flex-container">
+            <p>
+              <a href="https://razakma15.github.io/Bootstrap-Webpage-Example/"target="_blank">Deployed Version</a>
+            </p>
+            <p>
+              <a target="_blank" href="https://github.com/razakma15/Bootstrap-Webpage-Example">Source Code</a>
+            </p>
+        </div>
+
+            <li style="padding-bottom:40px;">Dynamic web application made on the micro-framework flask that searches though books ratings, the instructions for local deployment can be found on github</li>
+
+    <div class="slideshow-container">
+      <div class="slideshow-inner">
+
+      <div class="mySlides slide_design fade">
+        <img src='https://lh3.googleusercontent.com/my9HS47XD1NHdXlKxg4RoaxUUTDGLMcMLcBOiiV0b3O7XaYj74_lCVpgTwBAstpv_Pyc8hfkJ4sDsT3trqOcrktyonCgJnn5QLJ5w7XNH7xxUCxtbqliYoRLJ9iQIyp2zTTy-J-Tsg=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">SQLalchemys object relational mapping is used for more intuitive database control</div>
+      </div>
+
+      <div class="mySlides slide_design fade">
+        <img src='https://lh3.googleusercontent.com/P7xyIdwMnfoHPjg545X4bWJ_hsDX2_Z-TFtdoc2VLwEmY_lfmmp1txB66PHuJ3zEcePrFX-vj8vyX_RK9VkC-R4PHs6YzhBA79ZFZQaxRIvoHp3v2LgF1zsivqXtu3SzrX68qO9mPQ=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Utilizes the Jinja2 templating language</div>
+      </div>
+
+      <div class="mySlides slide_design fade">
+        <img src='https://lh3.googleusercontent.com/ZvAELUgZg3CrXtncCByAG7c8SnfMJGBXdj7SPSz2lMWxAhdAXGJVP5F-Qsopk5xjg0L0gzOllbUe-ebEZPJVV8eLeTGGhj6FGT3VAI3G5h9-8FQHWnCDHEE-uI3HcUOeGRbT2Jmxuw=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Connected to an external database hosted on heroku</div>
+      </div>
+
+      <div class="mySlides slide_design fade">
+        <img src='https://lh3.googleusercontent.com/7nMFuyk0HmNFpoXnoCClNmUzId5mMPL4Z8FTkDoBUAmMEE-16tgxCLor-I_D8R167M6gSpNfP1eZFCvxBO8QwVFqSBXykH8bdK7YvU17ZOYQT8sXKz7uFb_U-xMW_Tc8lSt8PB_2Gg=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Uses the goodreads api to fetch customer ratings</div>
+      </div>
+
+      </div>
+
+      <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+      <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+    </div>
+
+
+    <div class="flex-container">
+    <p style="">
+    <a href="https://github.com/razakma15/Library-Flask-WebApp"target="_blank">Source Code</a>
+    </p>
+    </div>
+
+    <li>The cream of the crop, semi-advanced pizza ordering application made on django and deployed on heroku</li>
+    <li style="padding-bottom:40px;">Deployed application will take a few seconds to intially start due to the hobbyist heroku tier used for hosting</li>
+
+
+    <div class="slideshow-container">
+      <div class="slideshow-inner2">
+
+      <div class="mySlides2 slide_design fade">
+        <img src='https://lh3.googleusercontent.com/BOIOxis2V5xJVlT2Ve0XAESA9ATFoG2bXQBZwv_1CwxF9nDIOGeorOm6CNaP-FJV3iTkpNsffcypKvd82RVS4PxOUmQIIuFamJo2q_wkvcK3Mi3jW5PWhbD0mRw6Mrr9wTBQoksTGw=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Image carousel made with Bootstrap 4</div>
+      </div>
+
+      <div class="mySlides2 slide_design fade">
+        <img src='https://lh3.googleusercontent.com/Nrn3WG1o_CtDuvZ4IPuqejqOn23q8nvmHVgYAJxgfEYozl3K9bK5GOFIjD01tA17briX9lxOfyXLg8aUdAt8vl82VMAQtkJSuynfxDDMKZuGRd2A40FAksNp2pHKhT0KZIaGp6sJaA=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Includes login and registration modals</div>
+      </div>
+
+      <div class="mySlides2 slide_design fade">
+        <img src='https://lh3.googleusercontent.com/Km9sgZsuh05AzFyvWGn1pXQxbc-6WFhyAiMe4sPReZUhoxv8faqspT0ZTQxADCXYEIAQcMPWAeIxz0I3RgzfZEYOd6-UfIti10zVZKN_SUGK3efvg_Ng2We7X5IyNvru0RahI2Z46g=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Admin interface used to easily manipulate database</div>
+      </div>
+
+      <div class="mySlides2 slide_design fade">
+        <img src='  https://lh3.googleusercontent.com/rx4AFpy5tyt4Fg0L9qBZHm_NjnjptYQF5QPROdsuQrcZYgU9v_CEPWQ3SMqwQ9lzvG8KXGn1dDvyte-wsxIJfxS0l_GLqUrLLhKj4vgGT29_BbdWa9oDZD4k83BxjaV2rQResic9Pg=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Template based menu which updates with any database changes</div>
+      </div>
+
+      <div class="mySlides2 slide_design fade">
+        <img src='https://lh3.googleusercontent.com/3TJInNy3ihvloQFTUfx_LkZuwk6QCWgQE8paS9zH2x2rSzULQ5qfsefHYqAiGHCBtzOd-y5d8hM8uzZjjKgbUpxcVC3_p9kWjtOCl5bgil1MmOsP6xprxCxFEvDi_DDpOi5iBrS9kg=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Checkout page with functional tooltips and dynamic total cost calculations</div>
+      </div>
+
+      <div class="mySlides2 slide_design fade">
+        <img src='https://lh3.googleusercontent.com/V7XX7cIH0fztSS2N-Ncp0DSiyT1-fnmewhOwXkBurj0wsY08VFP5RKkOiEmHo4qNF9doAv-wXHyZDSDHBRNIygmOOrHq4GAm6rCIbK5CiHtwk_6Bj51fHvWi4lsXaCZNX-wPZimT3A=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+        <div class="text">Real time payment processing using the stripe API</div>
+      </div>
+      </div>
+
+      <a class="prev" onclick='plusSlides2(-1)'>&#10094;</a>
+      <a class="next" onclick='plusSlides2(1)'>&#10095;</a>
+    </div>
+
+    <div class="flex-container">
+      <p>
+        <a target="_blank" href="https://django-pizza-app.herokuapp.com/">Deployed Version</a>
+      </p>
+      <p>
+        <a target="_blank" href="https://github.com/razakma15/Production-Pizza-Website">Source Code</a>
+      </p>
+    </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section id="section3">
+
+    <div id="glitch" class="glitch lower_body_margin">
+      <div class="glitch-img" style="background-image: url('https://lh3.googleusercontent.com/DTM4TlTMYvAYZPgDxl54omClWxdCM984FMAUfFm15vOeWG7d-zUJ8s4mZZCeTZVQiEh7uW9_kFY2uMTo1o_KqQ9shkX1WjRxeM96vMVKCoPbHrYt2nBH3YU4x9bHW5ODIhB1AAnr_g=w2400')"></div>
+      <p>CyberDiscovery is a government run extracurricular course split into different segments which are listed below</p>
+
+      <p>Cyberstart Assess - In this first stage I solved coding challenges and problems which involved deciphering and using
+        javascript, linux, sql injections, assembly, etc.. to find vunerabilities within the systems.</p>
+
+        <p>Cyberstart Game - This stage was significatly more challenging and required a greater depth and understanding of
+        computing knowledge. The challenges were multi step and required vast amounts of anylatical thinking, I also learned and
+        applied topics like steganography, packet interception, powershell scripting, memory heaps and virtual enviroments.
+        regedit, python websockets, steghide, wireshark and kali linux were used to overcome the challenges.
+        </p>
+
+        <p>Cyberstart Essentials - No challenges were required for this stage only hundreds of hours of content to process and understand
+          which was tested with over 45 module tests and a final exam, which I passed, The name of this section can be rather misleading...
+        </p>
+        <img class="certificate" src="https://lh3.googleusercontent.com/VhunS1SXX46yLRS3i9Wa3KtMXBc0iyqMADpFAmMCAPihKqGga-PYxZFmYASW_gCX1knqIBsVSR3tK23X5IKZmq2p3w2LeAe4Oothg_zQoANDtu2N1YozvepuqI93-ga9fvNc_h-pmQ=w2400" alt="Cyberstart essentials certificate">
+    </div>
+
+  </section>
+
+  <section id="section4">
+
+  <div id="future" class="future lower_body_margin">
+    <p>Futurelearn is another online course site, the courses they offer are shorter and easier then edx hence the larger amount completed.</p>
+
+  <div class="slideshow-container">
+    <div class="slideshow-inner3">
+
+    <div style="height:700px;"class="mySlides3 slide_design fade">
+      <img src='https://lh3.googleusercontent.com/LDFmx-pBN-A5_WLpCZlMZVnZhE_mTQBDlT2vsl7OnNqx17DnnHvb9qMQ4LOYscpaSc2UXOMpYY-Bqb_WiEt6kF20a0KEw305Fff6fRMq5G9I6brmDKfVQFlPJPZttqTs2rETu9SYgw=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">Process of how to anylase software needs for educational establishments</div>
+    </div>
+
+    <div style="height:700px;"class="mySlides3 slide_design fade">
+      <img src='https://lh3.googleusercontent.com/oC2HwXRAn883p2xrqaSaNBe0HmFDuGnsrT-5eUjz-9NUALj8phsrkJi13ko_2CSjMj2QnTffKu-5SuI-Dtmf5-dt_OYjT62RjfNmnp8J7hvEJOHEp-GuZzJpzwYoqi8FxGdJOYjUdg=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">Focused on how to restructure python code to stop repitition</div>
+    </div>
+
+    <div style="height:700px;"class="mySlides3 slide_design fade">
+      <img src='https://lh3.googleusercontent.com/iWgYhWqPs75lJdxBH8AwTJVlKUAx0aJY8ZQZM0Gqh4kO8P4BbHj119FNpB5mVB1Cww4oT2bfhdCRKrTk6hdQLqjTid3lydXd8zCL-ByNsvta9-K9__XExObfc02arWF4nU2Om1xWNA=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">The syntax structuring of haskell and the languages uses within industry</div>
+    </div>
+
+    <div style="height:700px;"class="mySlides3 slide_design fade">
+      <img src='https://lh3.googleusercontent.com/gIXR041Ejtk4GxDdcQzyrvVSqlq0g3aOCwr9om_fK06NJUSzJkwEM77YxWyWAFor5PY7qDTtbltfOXDrl6dTIYSUu_4IJ6FXQSOtniarAqPII67BfFYHjsSnn0coQcx_r2kiQsBqIw=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">Introduction to forms of cryptography and historical background of cyber security.</div>
+    </div>
+
+    <div style="height:700px;"class="mySlides3 slide_design fade">
+      <img src='https://lh3.googleusercontent.com/90wBQ80fEssdp-3Ussz_ltawBiSvYa04H7nR4EZ6Xn6pzTdUchzE5bSM77SkZYS5dVbRtuH6WYJLjRfwevOUcvN7xT8BeNeQjSmFzQobby2S8jcJqdutY2-WgebjdWUxqMPzHKOhXQ=w2400' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">Taught how to 'clean' data and use notebooks and libaries like matplotlib</div>
+    </div>
+
+
+
+    </div>
+
+    <a class="prev" onclick='plusSlides3(-1)'>&#10094;</a>
+    <a class="next" onclick='plusSlides3(1)'>&#10095;</a>
+  </div>
+
+  </div>
+
+  </section>
+
+
+
+<div class="grey_gradient"><h1 style="padding:20px;font-size:100px;color:white;">Other Projects</h1></div>
+<div class="footer">
+
+<p style="padding:0px;"class="other_projects">Python application with a GUI that rolls dice and calculates totals made using sql and tkinter modules.</p>
+
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,480 @@
+
+
+body{
+  margin:0px;
+  background-color: #333;
+}
+
+.lower_body_margin{
+  width: 100%;
+  border-radius: 30px;
+  border-color: #333;
+  border-width: 15px;
+  border-style: solid;
+}
+
+.footer{
+  height: 800px;
+  background-color: black;
+  margin: -30px;
+  padding:0px;
+}
+
+/* Source code sub heading */
+
+.flex-container a{
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 27px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Linear gradient from grey to black */
+
+.grey_gradient{
+  height: 250px;
+  background-image: linear-gradient(#333, black);
+}
+
+/* Linear gradient from black to grey */
+
+.black_gradient{
+  height: 250px;
+  background-image: linear-gradient(black, #333);
+}
+
+/* Glitch effects */
+.certificate{
+  position: relative;
+  z-index: 10;
+  width: 65%;
+  height:600px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-style: solid;
+ border-width: thick;
+ border-color: #40f525;
+ margin-top:60px;
+}
+
+.glitch p, .other_projects{
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  padding: 40px 0px 0px 35px;
+  font-size: 22px;
+}
+
+
+.glitch{
+  height: 1300px;
+  position: relative;
+  overflow: hidden;
+}
+
+*, *:after, *:before {
+  -moz-box-sizing:border-box;
+   box-sizing:border-box;
+}
+
+/* glitch elem must have absolute position */
+ .glitch-img {
+   position: absolute;
+   width : 100%;
+   height : 100%;
+   top: 0 ;
+   left : 0;
+   background-position:center;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   -webkit-background-size:cover;
+   background-size:cover;
+   opacity : 1
+ }
+
+
+/* Black Menu Cards */
+
+.master_container{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+.container{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+}
+
+.container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: black;
+    transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 0.6;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 100px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 15px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+}
+
+/* Snow falling animations */
+
+#large{
+  font-size: 100px;
+  color:grey;
+}
+h1 {
+  padding-top: 200px;
+  text-align: center;
+	font-family: consolas;
+}
+
+.hero {
+	background:black;
+	min-height: 600px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	&__content {
+		position: relative;
+		align-self: center;
+		padding: 3rem 0;
+	}
+}
+
+.snow {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.snow .svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 25s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 60s infinite linear;
+}
+
+@keyframes fall {
+
+	100% {
+		transform: translateY(0);
+	}
+
+}
+
+/* Scroll Mouse Animation */
+
+.scroll-downs {
+  position: absolute;
+  top: 80%;
+  left: 49%;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+/* Pink Background Animation */
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.pink_container p{
+  font-family: "Exo", sans-serif;
+	color: #fff;
+  padding: 25px 20px 20px 35px;
+  font-size: 18px;
+}
+
+.pink_container li{
+  font-family: "Exo", sans-serif;
+	color: #fff;
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.pink_container {
+	width: 100%;
+	text-align: center;
+	height: 2000px;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+/* Fading animation */
+#section1 {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1.5s;
+}
+#section1.visible {
+opacity: 1;
+transform: translate(0, -75px);
+}
+
+/* Fading animation */
+#section2 {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1.5s;
+}
+#section2.visible {
+opacity: 1;
+transform: translate(0, -75px);
+}
+
+#section3 {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1.5s;
+}
+#section3.visible {
+opacity: 1;
+transform: translate(0, -75px);
+}
+
+#section4 {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1.5s;
+}
+#section4.visible {
+opacity: 1;
+transform: translate(0, -75px);
+}
+/* Futurelearn Background */
+
+@keyframes future{0%{background-color:#c113d4;}30%{background-color:#e23bb0;}65%{background-color:#ecae70;}100%{background-color:#e4eb1c;}}
+
+.future p{
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  padding: 50px 0px 50px 0px;
+  font-size: 22px;
+}
+
+.future{
+height: 1100px;
+animation:future 8s infinite;
+animation-direction:alternate;
+}
+
+/* Slideshow formatting */
+
+.slide_design img{
+  height:100%;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto
+}
+
+.slide_design {
+  display: none;
+  height: 500px;
+  border: solid 2px black;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+  padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
