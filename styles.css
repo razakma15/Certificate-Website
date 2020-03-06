@@ -14,7 +14,7 @@ body{
 }
 
 .footer{
-  height: 800px;
+  height: 1200px;
   background-color: black;
   margin: -30px;
   padding:0px;
@@ -384,6 +384,7 @@ transform: translate(0, -75px);
 /* Futurelearn Background */
 
 @keyframes future{0%{background-color:#c113d4;}30%{background-color:#e23bb0;}65%{background-color:#ecae70;}100%{background-color:#e4eb1c;}}
+
 
 .future p{
   text-align: center;

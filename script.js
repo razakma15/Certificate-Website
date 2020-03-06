@@ -131,3 +131,32 @@ function showSlides3(n){
   }
   slides[slideIndex3-1].style.display = "block";
 }
+
+
+var slideIndex4 = 1;
+
+window.addEventListener("load",function() {
+    var slideshowContainer;
+    showSlides4(slideIndex4);
+
+    slideshowContainer = document.getElementsByClassName('slideshow_inner4')[0];
+})
+
+// NEXT AND PREVIOUS CONTROL
+function plusSlides4(n){
+  if (n < 0){
+    showSlides4(slideIndex4 -= 1);
+  } else {
+   showSlides4(slideIndex4 += 1);
+  }
+}
+function showSlides4(n){
+  var i;
+  var slides = document.getElementsByClassName("mySlides4");
+  if (n > slides.length) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex4-1].style.display = "block";
+}
